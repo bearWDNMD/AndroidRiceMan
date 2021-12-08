@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:clickable="true">
+<!--    <ImageView-->
+<!--        android:paddingTop="50dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@mipmap/img_2" />-->
+    <TextView
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="米晓得"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_marginTop="20px"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="版本 V1.0"/>
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginTop="60px"
+            android:layout_marginLeft="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="功能介绍"
+            />
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginLeft="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="版本更新"
+            />
+        <TextView
+            android:textSize="18sp"
+            android:layout_marginLeft="20px"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="检查新版本"
+            />
+        <RelativeLayout android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <EditText android:id="@+id/feedback_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:maxEms="10"
+                android:minEms="10"
+                android:gravity="top"
+                android:layout_marginBottom="50dip"/>
+            <TextView android:id="@+id/feedback_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:text="制作团队：钟雄飞、黄晓龙、岳小钢"
+                android:textSize="19dp"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

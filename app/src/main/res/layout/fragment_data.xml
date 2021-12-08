@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    tools:context=".DataFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/data_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2020/21年中国及全球大米市场规模及发展趋势分析"
+                android:textColor="#3F51B5"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="中国大米行业基本概况：分为三大类"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u3000\u3000我国是稻作历史最悠久、水稻遗传资源最丰富的国家之一，中国的稻作栽培已有1.4万年以上的历史，是已知的世界栽培稻起源地。稻谷经过清理、砻谷、碾米、成品整理等工序后，制成有较好食用品质的大米。大米中含有稻米中近64%的营养物质和90%以上的人体所需的营养元素，同时是中国大部分地区人民的主要食品。根据2019年5月1日正式实施的中华人民共和国国家标准《大米》(GB/T1354-2018)，按照食用品质可以分为大米和优质大米两类；而按照原料稻谷类型，大米可以分为籼米、粳米、糯米三类，优质大米可分为优质籼米和优质粳米。"
+                android:textSize="18sp" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="333dp"
+                android:src="@drawable/data1" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="中国大米行业产业链"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u3000\u3000就产业链而言，大米行业隶属于稻米产业，后者包括从种子种植到消费者消费的一个完整的产业链。在整个产业链中，大米加工业是核心环节，但其上下游状况对大米加工企业的生存发展、盈利及经营方式也有非常大的影响。大米行业的上游行业主要是水稻种植业，具体又包括水稻种植业、种子农机化肥农药制造业、大米加工设备制造业等；中游行业主要是大米加工行业；下游行业包括工业用粮类食品制造业、口粮消费、饲料用粮及其他用粮。其中，工业用粮食品制造业主要包括糕点制造、饼干及其他焙烤食品制造、方便食品制造、米制品制造、速冻食品制造、黄酒制造等；口粮消费主要包括大米、粮油等。除此之外，近年来在大米行业的下游陆续兴起对大米的综合利用的研究，包括米糠的利用、米胚芽的利用和稻壳的利用等。"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="387dp"
+                android:src="@drawable/data2" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="中国为全球第一大大米生产国"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u3000\u3000稻谷是世界上分布最广的作物之一，其经过加工后，可制出食用的大米。2016/17-2020/21年，全球大米产量和销量水平总体呈现波动增长的趋势，均在2020/21年突破5亿吨。从供需平衡情况来看，全球大米行业长期处于供大于需的状况，但近年来供需渐趋平衡。2020/21年，全球大米产量和消费量分别为5.01亿吨和5.00亿吨，存在0.01亿吨的供给剩余，而多年来供给过剩的局面将加剧大米加工行业企业的竞争程度。"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/data3" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\u3000\u3000全球大米产区主要分布在中国和印度。2020/21年度，中国以1.47亿吨的大米产量排名全球各国产量第一名；紧随其后的是印度，2020/21年度大米产量为1.20亿吨。两个国家合计大米产量占到全球的53%。"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/data4" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
