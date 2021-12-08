@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/TeaKnow.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/TeaKnow.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/riceMan.iml" filepath="$PROJECT_DIR$/.idea/modules/riceMan.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/riceMan.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/riceMan.app.iml" />
     </modules>
