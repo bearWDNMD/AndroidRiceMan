@@ -14,10 +14,10 @@ import com.example.riceMan.pojo.Rice;
 
 import java.util.ArrayList;
 
-public class KnowAdapter extends BaseAdapter {
+public class ManageAdapter extends BaseAdapter {
     public static ArrayList<Rice> list;
     private Context context;
-    public KnowAdapter(ArrayList<Rice> list, Context context)
+    public ManageAdapter(ArrayList<Rice> list, Context context)
     {
         this.context=context;
         this.list=list;

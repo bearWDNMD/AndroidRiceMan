@@ -42,10 +42,10 @@ public class NewsDetailActivity extends AppCompatActivity {
         if (item.getItemId()==R.id.share){
             String url=newBean.getUrl();
             Intent share_intent = new Intent();
-            share_intent.setAction(Intent.ACTION_SEND);//设置分享行为
+            share_intent.setAction(Intent.ACTION_SEND);//设置分享
             share_intent.setType("text/plain");//设置分享内容的类型
-            share_intent.putExtra(Intent.EXTRA_SUBJECT, "share");//添加分享内容标题
-            share_intent.putExtra(Intent.EXTRA_TEXT, url);//添加分享内容
+            share_intent.putExtra(Intent.EXTRA_SUBJECT, "share");//添加标题
+            share_intent.putExtra(Intent.EXTRA_TEXT, url);//添加内容
             //创建分享的Dialog
             share_intent = Intent.createChooser(share_intent, "share");
             startActivity(share_intent);
@@ -78,8 +78,6 @@ public class NewsDetailActivity extends AppCompatActivity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        //右侧菜单
-        // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.favorite_menu, menu);
         MenuItem menuItem=menu.findItem(R.id.fav);
         MenuItem menuItem1=menu.findItem(R.id.share);
@@ -100,13 +98,12 @@ public class NewsDetailActivity extends AppCompatActivity {
     }
     private void initWebView() {
         webView.loadUrl(newBean.getUrl());
-        //支持javascript
         webView.getSettings().setJavaScriptEnabled(true);
-        // 设置可以支持缩放
+        // 支持缩放
         webView.getSettings().setSupportZoom(true);
-        // 设置出现缩放工具
+        // 缩放工具
         webView.getSettings().setBuiltInZoomControls(true);
-        //扩大比例的缩放
+        //扩大比例缩放
         webView.getSettings().setUseWideViewPort(true);
         //自适应屏幕
         webView.getSettings().setLayoutAlgorithm(WebSettings.LayoutAlgorithm.SINGLE_COLUMN);

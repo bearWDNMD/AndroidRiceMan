@@ -47,24 +47,19 @@
             android:layout_marginLeft="20px"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="版本更新"
-            />
-        <TextView
-            android:textSize="18sp"
-            android:layout_marginLeft="20px"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="检查新版本"
+            android:text="\u3000\u3000您可以在本软件中看到有关大米的新闻、介绍、咨询、京东参考价以及数据！感谢您的使用！"
             />
         <RelativeLayout android:layout_width="fill_parent"
             android:layout_height="fill_parent">
-            <EditText android:id="@+id/feedback_content"
+
+            <EditText
+                android:id="@+id/feedback_content"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
-                android:maxEms="10"
-                android:minEms="10"
+                android:layout_marginBottom="50dip"
                 android:gravity="top"
-                android:layout_marginBottom="50dip"/>
+                android:maxEms="10"
+                android:minEms="10" />
             <TextView android:id="@+id/feedback_submit"
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"

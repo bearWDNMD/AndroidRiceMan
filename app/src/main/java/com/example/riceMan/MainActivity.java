@@ -30,8 +30,6 @@ public class MainActivity extends AppCompatActivity {
         initView();
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         NavigationView navigationView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.nav_home,
                 R.id.nav_search, R.id.nav_favorites, R.id.nav_share,
@@ -45,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
+
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
@@ -73,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         mTabRadioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
-                // 具体的fragment切换逻辑可以根据应用调整，例如使用show()/hide()
+
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         mFragmentSparseArray.get(checkedId)).commit();
             }
@@ -91,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                DataRequestUtil.getManageData(MainActivity.this);
+                DataRequestUtil.getKnowData(MainActivity.this);
             }
         }).start();
 

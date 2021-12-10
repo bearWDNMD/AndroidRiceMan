@@ -31,7 +31,7 @@
             android:drawablePadding="5dp"
             android:text="头条" />
         <RadioButton
-            android:id="@+id/manage_tab"
+            android:id="@+id/know_tab"
             style="@style/Custom.TabRadioButton"
             android:background="@null"
             android:button="@null"
@@ -50,7 +50,7 @@
 
 
         <RadioButton
-            android:id="@+id/know_tab"
+            android:id="@+id/manage_tab"
             style="@style/Custom.TabRadioButton"
             android:background="@null"
             android:button="@null"

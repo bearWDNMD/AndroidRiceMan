@@ -5,7 +5,7 @@
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/lv_loadmanage"
+        android:id="@+id/lv_loaddata"
         ></ListView>
 
 </RelativeLayout>

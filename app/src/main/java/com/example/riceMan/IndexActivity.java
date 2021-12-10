@@ -15,13 +15,11 @@ public class IndexActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        /*沉浸状态栏，即使状态栏颜色透明*/
 
        /* View decorView = getWindow().getDecorView();
         decorView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN | View.SYSTEM_UI_FLAG_LAYOUT_STABLE);
         getWindow().setStatusBarColor(Color.TRANSPARENT);*/
 
-/**************************************/
 
         //去除标题栏
         //  requestWindowFeature(Window.FEATURE_NO_TITLE);
@@ -29,7 +27,6 @@ public class IndexActivity extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams. FLAG_FULLSCREEN ,
                 WindowManager.LayoutParams. FLAG_FULLSCREEN);
 
-/**************************************/
 
         setContentView(R.layout.activity_index);
 

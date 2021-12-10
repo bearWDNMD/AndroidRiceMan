@@ -31,7 +31,6 @@ import java.util.Date;
 public class ConsultFragment extends Fragment {
 
 
-    // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_SHOW_TEXT = "text";
     private ListView listView;
     private ArrayList<News> newBeans=new ArrayList<>();
@@ -40,16 +39,9 @@ public class ConsultFragment extends Fragment {
 
 
     public ConsultFragment() {
-        // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @return A new instance of fragment BlankFragment.
-     */
+
     public static ConsultFragment newInstance(String param1) {
         ConsultFragment fragment = new ConsultFragment();
         Bundle args = new Bundle();
@@ -69,7 +61,6 @@ public class ConsultFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View rootView = inflater.inflate(R.layout.fragment_consult, container, false);
         listView=(ListView)rootView.findViewById(R.id.lv_loadconsult);
         initView();

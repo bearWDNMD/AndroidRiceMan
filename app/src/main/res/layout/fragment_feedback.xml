@@ -29,17 +29,7 @@
             android:layout_marginBottom="10dp"
             android:text="欢迎您提出宝贵的意见和建议，您的建议对我们改善服务非常有帮助。">
         </TextView>
-        <LinearLayout android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp" >
-            <Spinner android:id="@+id/feedback_type_spinner"
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
-                android:layout_weight="1"
-                android:focusable="true"
-                android:entries="@array/feedback_type"/>
-        </LinearLayout>
+
         <RelativeLayout android:layout_width="fill_parent"
             android:layout_height="fill_parent">
             <EditText android:id="@+id/feedback_content"

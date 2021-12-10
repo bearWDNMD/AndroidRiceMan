@@ -41,13 +41,7 @@ public class HeadlineFragment extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @return A new instance of fragment BlankFragment.
-     */
+
     public static HeadlineFragment newInstance(String param1) {
         HeadlineFragment fragment = new HeadlineFragment();
         Bundle args = new Bundle();
@@ -125,7 +119,6 @@ public class HeadlineFragment extends Fragment {
                         newBean.setUrl(cursor.getString(cursor.getColumnIndex("url")));
                         newBean.setImgurl(cursor.getString(cursor.getColumnIndex("imgurl")));
                         newBeans.add(newBean);
-                        //Log.e("news",newBean.toString());
                     } while (cursor.moveToNext());
 
                 }
