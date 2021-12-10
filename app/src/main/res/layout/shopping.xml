@@ -30,7 +30,7 @@
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
             android:layout_marginTop="18dp"
-            android:text="茶的名字"
+            android:text="米的名字"
             android:textColor="#6b6b6b"
             android:maxEms="18"
             android:maxLines="2"

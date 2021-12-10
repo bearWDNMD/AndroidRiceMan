@@ -30,8 +30,10 @@
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/drawable/side_nav_bar.xml" value="0.19427083333333334" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/activity_article_detail.xml" value="0.22" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/activity_index.xml" value="0.18229166666666666" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/activity_main.xml" value="0.26927083333333335" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/activity_news_detail.xml" value="0.1" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/article_item.xml" value="0.1" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/consult.xml" value="0.26927083333333335" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/content_main.xml" value="0.178125" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/fragment_consult.xml" value="0.178125" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/fragment_data.xml" value="0.178125" />
@@ -40,8 +42,15 @@
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/fragment_home.xml" value="0.178125" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/fragment_know.xml" value="0.178125" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/fragment_manage.xml" value="0.178125" />
-        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/fragment_version.xml" value="0.5" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/fragment_version.xml" value="0.48857142857142855" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/history_item.xml" value="0.2671875" />
         <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/main_activity.xml" value="0.1" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/nav_header_main.xml" value="0.2671875" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/news.xml" value="0.26927083333333335" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/layout/shopping.xml" value="0.26927083333333335" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/menu/activity_main_drawer.xml" value="0.2671875" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/menu/main.xml" value="0.2671875" />
+        <entry key="..\:/Ideaproject/Git/riceMan/app/src/main/res/menu/menu_favorite.xml" value="0.2671875" />
         <entry key="..\:/Users/10198/Documents/Tencent Files/1019807613/FileRecv/projectfinal2/TeaKnow22/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13796296296296295" />
         <entry key="..\:/Users/10198/Documents/Tencent Files/1019807613/FileRecv/projectfinal2/TeaKnow22/app/src/main/res/drawable/ic_collection.xml" value="0.13796296296296295" />
         <entry key="..\:/Users/10198/Documents/Tencent Files/1019807613/FileRecv/projectfinal2/TeaKnow22/app/src/main/res/drawable/ic_history.xml" value="0.18611111111111112" />

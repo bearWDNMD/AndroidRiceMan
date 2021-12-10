@@ -5,12 +5,12 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.util.Log;
 
-import com.example.riceMan.pojo.News;
-import com.example.riceMan.pojo.Rice;
+import com.example.riceMan.db.DatabaseHelper;
+import com.example.riceMan.entity.News;
+import com.example.riceMan.entity.Rice;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.util.ArrayList;
@@ -59,7 +59,7 @@ public class DataRequestUtil {
                 values.put("url", url);
                 values.put("type", type);
                 values.put("imgurl", imgurl);
-                News news1 = Util.query_new(time, context);
+                News news1 = DatabaseUtil.query_new(time, context);
                 if (news1.getUrl() == null)
                     db.insert("News", null, values);
             }
@@ -110,7 +110,7 @@ public class DataRequestUtil {
                 values.put("type", type);
                 values.put("imgurl","https://image.maigoo.com/upload/images/20210708/17053152888_500x312.jpg_220_135.jpg");
                 //values.put("imgurl",imgurl);
-                News news1 = Util.query_new(time, context);
+                News news1 = DatabaseUtil.query_new(time, context);
                 if (news1.getUrl() == null)
                     db.insert("News", null, values);
             }
@@ -158,7 +158,7 @@ public class DataRequestUtil {
                 values.put("url", url);
                 values.put("type", type);
                 values.put("imgurl", imgurl);
-                News news1 = Util.query_new(time, context);
+                News news1 = DatabaseUtil.query_new(time, context);
 
                 if (news1.getUrl() == null)
                     db.insert("News", null, values);
@@ -200,7 +200,7 @@ public class DataRequestUtil {
                 values.put("imgurl", rice.getImgurl());
                 values.put("flag", rice.getFlag());
                 values.put("price", rice.getPrice());
-                if (Util.queryRiceIfExists(rice.getName(),context))
+                if (DatabaseUtil.queryRiceIfExists(rice.getName(),context))
                     db.insert("rices",null,values);
             }
         } catch (Exception e) {

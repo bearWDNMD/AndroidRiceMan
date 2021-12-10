@@ -12,16 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.example.riceMan.NewsDetailActivity"></activity>
-        <activity android:name="com.example.riceMan.ArticleDetailActivity" />
+        <activity android:name="com.example.riceMan.ui.activity.NewsDetailActivity"></activity>
+        <activity android:name="com.example.riceMan.ui.activity.ArticleDetailActivity" />
         <activity
-            android:name="com.example.riceMan.MainActivity"
+            android:name="com.example.riceMan.ui.activity.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
 
         </activity>
         <activity
-            android:name="com.example.riceMan.IndexActivity"
+            android:name="com.example.riceMan.ui.activity.IndexActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
             <action android:name="android.intent.action.MAIN" />

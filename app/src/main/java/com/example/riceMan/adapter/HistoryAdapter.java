@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 
 import com.example.riceMan.R;
-import com.example.riceMan.pojo.Favorite_item;
+import com.example.riceMan.entity.Favorite_item;
 
 import java.util.ArrayList;
 

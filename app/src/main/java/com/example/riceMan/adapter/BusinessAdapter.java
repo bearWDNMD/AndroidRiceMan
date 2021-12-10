@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.example.riceMan.R;
-import com.example.riceMan.pojo.News;
+import com.example.riceMan.entity.News;
 
 import java.util.ArrayList;
 

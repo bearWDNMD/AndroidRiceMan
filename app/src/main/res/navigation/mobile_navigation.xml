@@ -6,37 +6,37 @@
     app:startDestination="@+id/nav_home">
     <fragment
         android:id="@+id/nav_home"
-        android:name="com.example.riceMan.ui.home.HomeFragment"
+        android:name="com.example.riceMan.ui.fragment.HomeFragment"
         android:label="米晓得"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/nav_search"
-        android:name="com.example.riceMan.ui.search.SearchFragment"
+        android:name="com.example.riceMan.ui.fragment.SearchFragment"
         android:label="搜索"
         tools:layout="@layout/fragment_search" />
     <fragment
         android:id="@+id/nav_favorites"
-        android:name="com.example.riceMan.ui.favorites.FavoritesFragment"
+        android:name="com.example.riceMan.ui.fragment.FavoritesFragment"
         android:label="我的收藏"
         tools:layout="@layout/fragment_favorites" />
     <fragment
         android:id="@+id/nav_feedback"
-        android:name="com.example.riceMan.ui.feedback.FeedbackFragment"
+        android:name="com.example.riceMan.ui.fragment.FeedbackFragment"
         android:label="用户反馈"
         tools:layout="@layout/fragment_feedback" />
     <fragment
         android:id="@+id/nav_version"
-        android:name="com.example.riceMan.ui.version.VersionFragment"
+        android:name="com.example.riceMan.ui.fragment.VersionFragment"
         android:label="版本号"
         tools:layout="@layout/fragment_version" />
     <fragment
         android:id="@+id/nav_share"
-        android:name="com.example.riceMan.ui.share.ShareFragment"
+        android:name="com.example.riceMan.ui.fragment.ShareFragment"
         android:label="分享"
         tools:layout="@layout/fragment_share" />
     <fragment
         android:id="@+id/nav_history"
-        android:name="com.example.riceMan.ui.history.HistoryFragment"
+        android:name="com.example.riceMan.ui.fragment.HistoryFragment"
         android:label="历史记录"
         tools:layout="@layout/fragment_history" />
 

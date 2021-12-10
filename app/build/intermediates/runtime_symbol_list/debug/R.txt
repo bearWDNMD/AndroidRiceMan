@@ -2251,9 +2251,9 @@ int layout text_view_with_line_height_from_layout 0x7f0b007f
 int layout text_view_with_line_height_from_style 0x7f0b0080
 int layout text_view_with_theme_line_height 0x7f0b0081
 int layout text_view_without_line_height 0x7f0b0082
-int menu activity_main_drawer 0x7f0c0000
-int menu favorite_menu 0x7f0c0001
-int menu main 0x7f0c0002
+int menu main 0x7f0c0000
+int menu menu_drawer 0x7f0c0001
+int menu menu_favorite 0x7f0c0002
 int mipmap ic_launcher 0x7f0d0000
 int mipmap ic_launcher_foreground 0x7f0d0001
 int mipmap ic_launcher_round 0x7f0d0002
